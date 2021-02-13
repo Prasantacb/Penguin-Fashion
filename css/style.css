@@ -44,6 +44,10 @@ button{
     line-height: 24px;
     text-transform: uppercase;
 }
+button:hover{
+    background-color: tomato;
+    transition: .5s;
+}
 button i{
     margin-right: 5px;
 }
@@ -107,4 +111,54 @@ main{
     font-size: 36px;
     font-weight: 900;
     line-height: 42px;
+}
+/* Our-service-part-start  */
+
+.service-box{
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.service-box .service-cont h3{
+    font-family: 'Roboto';
+    font-size: 24px;
+    color: #363958;
+    font-weight: 700;
+    line-height: 28px;
+}
+.service-box .service-cont p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* footer-part-start  */
+.submit-box{
+    height: 280px;
+    text-align: center;
+}
+.submit-box h2{
+    font-family: 'Roboto';
+    font-size: 34px;
+    color: #363958;
+    font-weight: 700;
+    line-height: 28px;
+}
+.submit-box p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.submit-box input{
+    width: 100%;
+    display: block;
+    margin-bottom: 8px;
+    padding: 6px;
+    border-radius: 8px;
+    border: 1.5px solid grey;
+}
+
+.footer-bottom p{
+    font-size: 12px;
 }
